@@ -3,10 +3,10 @@
 
 	<!-- Some general parameters -->
 	<param name="use_sim_time" value="true" />
-	<rosparam file="$(find robodoc_uv)/param/ros.yaml"/>
+	<rosparam file="$(find robodoc_uv_pkg)/param/ros.yaml"/>
 
 	
-	<include file="$(find robodoc_uv)/launch_files/real_test/starthector_slam_sim_ok.launch"/>
+	<include file="$(find robodoc_uv_pkg)/launch_files/real_test/starthector_slam_sim_ok.launch"/>
 
 	<!-- python nodes -->
 	<group ns="python_nodes">
