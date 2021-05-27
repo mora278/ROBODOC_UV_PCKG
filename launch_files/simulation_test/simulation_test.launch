@@ -22,6 +22,5 @@
 	<node name="RVIZ" pkg="rviz" type="rviz" args=" -d $(find robodoc_uv)/param/tutorial1.rviz"/>
 
 	<include file="$(find robodoc_uv)/launch_files/simulation_test/starthector_slam_sim_ok.launch"/>
-
 	
 </launch>
