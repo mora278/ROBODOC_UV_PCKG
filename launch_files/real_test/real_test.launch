@@ -10,8 +10,8 @@
 
 	<!-- python nodes -->
 	<group ns="python_nodes">
-		<node name="publish_arduino" pkg="robodoc_uv" type="publisharduino.py" output="screen"/>
-		<node name="keyboard_teleop" pkg="robodoc_uv" type="keyboard_teleop.py" output="screen"/>
+		<node name="publish_arduino" pkg="robodoc_uv_pkg" type="publisharduino.py" output="screen"/>
+		<node name="keyboard_teleop" pkg="robodoc_uv_pkg" type="keyboard_teleop.py" output="screen"/>
 	</group>
 
 </launch>
